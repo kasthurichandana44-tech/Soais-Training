@@ -1,0 +1,15 @@
+function sumArray(arr: number[]): number {
+    let sum = 0;
+
+    for (let i = 0; i < arr.length; i++) {
+        sum += arr[i];
+    }
+
+    return sum;
+}
+
+// Example usage
+const numbers = [10, 20, 30, 40];
+const result = sumArray(numbers);
+
+console.log(`Sum: ${result}`);
